@@ -35,6 +35,9 @@ app.config(function($routeProvider) {
     .when("/film_stills", {
         templateUrl : "/assets/partials/film_stills.html"
     })
+    .when("/of_my_dreams", {
+        templateUrl : "/assets/partials/of_my_dreams.html"
+    })
     .when("/art", {
         templateUrl : "/assets/partials/art.html"
     })
