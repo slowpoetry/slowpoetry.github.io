@@ -1,12 +1,17 @@
 <div style="float: right;">
-    <img ng-src="{{'/assets/images/0/82.jpg'}}" style="max-width: 100%; vertical-align: middle"/>
-    <img ng-src="{{'/assets/images/0/84.jpg'}}" style="max-width: 100%; vertical-align: middle"/>
-    <img ng-src="{{'/assets/images/1/2289_0.jpg'}}" style="max-width: 100%; vertical-align: middle;"/>
-    <img ng-src="{{'/assets/images/1/2289_04.jpg'}}" style="max-width: 100%; vertical-align: middle;"/>
-    <img ng-src="{{'/assets/images/1/2289_00.jpg'}}" style="max-width: 100%; vertical-align: middle;"/>
+    <img ng-src="{{'/assets/images/0/64.jpg'}}" style="width: 100%; vertical-align: middle"/>
+    <img ng-src="{{'/assets/images/0/65.jpg'}}" style="width: 100%; vertical-align: middle"/>
+    <img ng-src="{{'/assets/images/0/66.jpg'}}" style="width: 100%; vertical-align: middle"/>
+    <img ng-src="{{'/assets/images/0/67.jpg'}}" style="width: 100%; vertical-align: middle"/>
+    <img ng-src="{{'/assets/images/0/68.jpg'}}" style="width: 100%; vertical-align: middle"/>
+    <img ng-src="{{'/assets/images/0/69.jpg'}}" style="width: 100%; vertical-align: middle"/>
+
 </div>
 <div style="position: absolute; right: 0px; padding: 10px">
-    <body>Is anybody out there? Can you hear me?</body>
+    <text ng-mouseover="topStyle={'background-color':'pink'}" 
+          ng-mouseout="topStyle={}" ng-style="topStyle">
+        Is anybody out there? Can you hear me?
+    </text>
     <div ng-mouseover="sunStyle={'background-color':'pink'}" ng-mouseout="sunStyle={}">
         <h1 ng-style="sunStyle">I said to the sun</h1>
         <h1><i ng-style="sunStyle">"Tell me about the big bang"</i></h1>
